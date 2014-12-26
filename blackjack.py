@@ -1,3 +1,6 @@
+#before calling blackjack(), import random
+#Cannot stand if house initially has an equal or greater amount than you
+#anything other than '', 'h', or 'hit', means stand
 
 def shuffledDeck():
     'returns shuffled deck'
@@ -101,7 +104,3 @@ def blackjack():
 
         #compare house and player hands and print result
         compareHands(house, player)
-
-#before calling blackjack(), import random
-#Cannot stand if house initially has an equal or greater amount than you
-#anything other than '', 'h', or 'hit', means stand
